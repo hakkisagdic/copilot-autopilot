@@ -1,0 +1,14 @@
+{
+  "name": "copilot-autopilot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "collect-prompt": "node collect-prompts.js",
+    "collect-prompt:watch": "node collect-prompts.js --watch",
+    "build-knowledge": "node generate-knowledge.js",
+    "build-decisions": "node generate-decisions.js",
+    "build-project-docs": "node generate-project-docs.js",
+    "test": "node --test"
+  }
+}
